@@ -74,7 +74,7 @@ The `tagName` variable contains the tag name that articles are filtered by.
 #### env.helpers.getAllTags()
 This function returns all tags in the project. It can be used to create a tag cloud on your frontpage, for example.
 
-#### env.helpers.getArticlesByTag(tagName)
+#### env.helpers.getArticlesByTag(contents, tagName)
 Returns all articles that has tag `tagName`
 
 #### env.helpers.getTagHome(tagName)
